@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="TowerDefenseEngine.Wave">
+    <MonsterAssets>
+      <Item>Fly</Item>
+      <Item>Fly</Item>
+      <Item>Fly</Item>
+      <Item>Fly</Item>
+      <Item>Fly</Item>
+      <Item>Fly</Item>
+      <Item>Fly</Item>
+      <Item>Fly</Item>
+      <Item>Fly</Item>
+      <Item>Fly</Item>
+    </MonsterAssets>
+    <Title>10 Flies</Title>
+    <BossWave>false</BossWave>
+    <MonsterSpawnTimer>0.5</MonsterSpawnTimer>
+    <MoneyPerKill>25</MoneyPerKill>
+    <BossMoneyScalar>2.0</BossMoneyScalar>
+  </Asset>
+</XnaContent>

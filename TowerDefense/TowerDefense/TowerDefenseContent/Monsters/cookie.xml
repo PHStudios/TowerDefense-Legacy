@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="TowerDefenseEngine.Enemy.Monster">
+    <Name>Cookie</Name>
+    <Description/>
+    <Alpha>1.0</Alpha>
+    <Speed>160</Speed>
+    <Health>130</Health>
+    <TextureAsset>cookie</TextureAsset>
+    <HitTextureAsset>cookie_hit</HitTextureAsset>
+    <HitCueName>Hit</HitCueName>
+    <IsBoss>false</IsBoss>
+  </Asset>
+</XnaContent>

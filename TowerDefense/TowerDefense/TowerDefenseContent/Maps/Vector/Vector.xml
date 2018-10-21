@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="TowerDefenseEngine.Map">
+    <Name>Vector</Name>
+    <Dimensions>15 11</Dimensions>
+    <TileDimensions>64 64</TileDimensions>
+    <Description>This is a map with a computerized vector theme</Description>
+    <ThumbnailAsset>thumbnail</ThumbnailAsset>
+    <TileSheetAsset>tiles</TileSheetAsset>
+    <GroundTiles>
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    </GroundTiles>
+    <PathTiles>
+      0 0 0 0 0 0 11 6 6 6 6 6 9 0 0
+      0 7 0 0 0 0 7 0 0 0 0 0 7 0 0
+      0 7 0 0 0 0 7 0 0 0 0 0 7 0 0
+      0 7 0 0 0 0 7 0 0 0 0 0 7 0 0
+      0 7 0 0 0 0 7 0 0 0 0 0 7 0 0
+      0 10 6 6 6 6 8 0 0 0 0 0 7 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 7 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 7 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 7 0 0
+      0 0 6 6 6 6 6 6 6 6 6 6 8 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    </PathTiles>
+    <SpawnLocation>1 0</SpawnLocation>
+    <SpawnAssetName>gate</SpawnAssetName>
+    <CastleLocation>1 9</CastleLocation>
+    <CastleAssetName>house</CastleAssetName>
+    <Endless>false</Endless>
+    <TowersAvailable>
+      <Item>BasicTower</Item>
+      <Item>PoisonTower</Item>
+    </TowersAvailable>
+    <WavesAvailable>
+      <Item>slowbugs</Item>
+      <Item>slowbugs</Item>
+      <Item>slowbugs2</Item>
+      <Item>slowbugs2</Item>
+      <Item>slowbugs2</Item>
+      <Item>cookies</Item>
+      <Item>slowbugs2</Item>
+      <Item>infection</Item>
+    </WavesAvailable>
+    <WaveDelay>10</WaveDelay>
+    <Difficulty>2</Difficulty>
+    <Money>500</Money>
+    <ForeColorArray>0 176 255 255</ForeColorArray>
+    <ErrorColorArray>255 0 0 255</ErrorColorArray>
+    <InfoBarBackgroundAsset>infobar_bg</InfoBarBackgroundAsset>
+    <BorderColorArray>94 94 94 255</BorderColorArray>
+    <BorderTextureAsset>border</BorderTextureAsset>
+    <MouseTextureAsset>mouse</MouseTextureAsset>
+    <SmallErrorButtonTextureAsset>button_sm_error</SmallErrorButtonTextureAsset>
+    <SmallNormalButtonTextureAsset>button_sm_normal</SmallNormalButtonTextureAsset>
+    <LargeErrorButtonTextureAsset>button_lg_error</LargeErrorButtonTextureAsset>
+    <LargeNormalButtonTextureAsset>button_lg_normal</LargeNormalButtonTextureAsset>
+    <SongCueName>Music</SongCueName>
+  </Asset>
+</XnaContent>

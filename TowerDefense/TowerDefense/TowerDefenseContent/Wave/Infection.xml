@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="TowerDefenseEngine.Wave">
+    <MonsterAssets>
+      <Item>TrojanHorse</Item>
+      <Item>TrojanHorse</Item>
+      <Item>TrojanHorse</Item>
+      <Item>TrojanHorse</Item>
+      <Item>TrojanHorse</Item>
+    </MonsterAssets>
+    <Title>Boss:  Infection</Title>
+    <BossWave>true</BossWave>
+    <MonsterSpawnTimer>10</MonsterSpawnTimer>
+    <MoneyPerKill>80</MoneyPerKill>
+    <BossMoneyScalar>2.0</BossMoneyScalar>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="TowerDefenseEngine.Bullet">
+    <Type>DoT</Type>
+    <AoERadius>0</AoERadius>
+    <dotDamagePercentage>0.15</dotDamagePercentage>
+    <dotTime>2</dotTime>
+    <TextureAsset>poison</TextureAsset>
+    <ParticleAsset>poison_particle</ParticleAsset>
+    <Speed>400</Speed>
+    <DieTime>0.3</DieTime>
+  </Asset>
+</XnaContent>

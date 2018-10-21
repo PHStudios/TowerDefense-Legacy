@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="TowerDefenseEngine.Map">
+    <Name>Forest</Name>
+    <Dimensions>15 11</Dimensions>
+    <TileDimensions>64 64</TileDimensions>
+    <Description>This is a map with a forest theme</Description>
+    <ThumbnailAsset>thumbnail</ThumbnailAsset>
+    <TileSheetAsset>tiles</TileSheetAsset>
+    <GroundTiles>
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 1 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 1 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    </GroundTiles>
+    <PathTiles>
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      7 0 0 0 11 6 6 6 6 6 6 6 6 9 0
+      7 0 0 0 7 0 0 0 0 0 0 0 0 7 0
+      7 0 0 0 7 0 0 0 0 0 0 0 0 7 0
+      7 0 0 0 7 0 0 0 0 0 0 0 0 7 0
+      7 0 0 0 7 11 6 6 6 6 6 6 6 8 0
+      7 0 0 0 7 7 0 0 0 0 0 0 0 0 0
+      10 6 6 6 8 7 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    </PathTiles>
+    <SpawnLocation>5 8</SpawnLocation>
+    <SpawnAssetName>gate</SpawnAssetName>
+    <CastleLocation>0 0</CastleLocation>
+    <CastleAssetName>house</CastleAssetName>
+    <Endless>false</Endless>
+    <TowersAvailable>
+      <Item>BasicTower</Item>
+    </TowersAvailable>
+    <WavesAvailable>
+      <Item>VerySlowAnts</Item>
+      <Item>VerySlowAnts</Item>
+      <Item>VerySlowAnts</Item>
+      <Item>VerySlowAnts2</Item>
+      <Item>VerySlowAnts2</Item>
+      <Item>VerySlowAnts2</Item>
+      <Item>Flies</Item>
+      <Item>SwampBoss</Item>
+    </WavesAvailable>
+    <WaveDelay>10</WaveDelay>
+    <Difficulty>1</Difficulty>
+    <Money>300</Money>
+    <ForeColorArray>124 189 70 255</ForeColorArray>
+    <ErrorColorArray>255 0 0 255</ErrorColorArray>
+    <InfoBarBackgroundAsset>infobar_bg</InfoBarBackgroundAsset>
+    <BorderColorArray>90 130 55 255</BorderColorArray>
+    <BorderTextureAsset>border</BorderTextureAsset>
+    <MouseTextureAsset>mouse</MouseTextureAsset>
+    <SmallErrorButtonTextureAsset>button_sm_error</SmallErrorButtonTextureAsset>
+    <SmallNormalButtonTextureAsset>button_sm_normal</SmallNormalButtonTextureAsset>
+    <LargeErrorButtonTextureAsset>button_lg_error</LargeErrorButtonTextureAsset>
+    <LargeNormalButtonTextureAsset>button_lg_normal</LargeNormalButtonTextureAsset>
+    <SongCueName>Forest</SongCueName>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="TowerDefenseEngine.Tower">
+    <Name>Poison Tower</Name>
+    <Description>DoT Poison Tower</Description>
+    <ThumbnailAsset>poison_thumb</ThumbnailAsset>
+    <TextureAsset>poisontower</TextureAsset>
+    <RadiusTextureAsset>radius</RadiusTextureAsset>
+    <Cost>150</Cost>
+    <Level>1</Level>
+    <MaxLevel>5</MaxLevel>
+    <InitialStatistics>
+      <Health>100</Health>
+      <Damage>18</Damage>
+      <Speed>3</Speed>
+      <Accuracy>1</Accuracy>
+      <CriticalChance>1</CriticalChance>
+      <CriticalHitScalar>0.5</CriticalHitScalar>
+      <Radius>3</Radius>
+    </InitialStatistics>
+    <UpgradeStatistics>
+      <HealthIncrease>100</HealthIncrease>
+      <DamageIncrease>12</DamageIncrease>
+      <SpeedIncrease>-0.2</SpeedIncrease>
+      <AccuracyIncrease>1</AccuracyIncrease>
+      <CriticalChanceIncrease>1</CriticalChanceIncrease>
+      <CriticalHitScalarIncrease>0.5</CriticalHitScalarIncrease>
+      <RadiusIncrease>1</RadiusIncrease>
+    </UpgradeStatistics>
+    <BulletAsset>poison</BulletAsset>
+    <SellScalar>0.5</SellScalar>
+  </Asset>
+</XnaContent>

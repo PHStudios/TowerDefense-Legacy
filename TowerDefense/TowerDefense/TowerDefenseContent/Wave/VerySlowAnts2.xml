@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="TowerDefenseEngine.Wave">
+    <MonsterAssets>
+      <Item>SlowAnt</Item>
+      <Item>SlowAnt</Item>
+      <Item>SlowAnt</Item>
+      <Item>SlowAnt</Item>
+      <Item>SlowAnt</Item>
+      <Item>SlowAnt</Item>
+      <Item>SlowAnt</Item>
+      <Item>SlowAnt</Item>
+      <Item>SlowAnt</Item>
+      <Item>SlowAnt</Item>
+      <Item>SlowAnt</Item>
+      <Item>SlowAnt</Item>
+      <Item>SlowAnt</Item>
+      <Item>SlowAnt</Item>
+      <Item>SlowAnt</Item>
+    </MonsterAssets>
+    <Title>15 Slow Ants</Title>
+    <BossWave>false</BossWave>
+    <MonsterSpawnTimer>1.0</MonsterSpawnTimer>
+    <MoneyPerKill>20</MoneyPerKill>
+    <BossMoneyScalar>2.0</BossMoneyScalar>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="TowerDefenseEngine.Wave">
+    <MonsterAssets>
+      <Item>SwampCreature</Item>
+      <Item>SwampCreature</Item>
+      <Item>SwampCreature</Item>
+    </MonsterAssets>
+    <Title>3 Swamp Creatures</Title>
+    <BossWave>true</BossWave>
+    <MonsterSpawnTimer>8</MonsterSpawnTimer>
+    <MoneyPerKill>60</MoneyPerKill>
+    <BossMoneyScalar>2.0</BossMoneyScalar>
+  </Asset>
+</XnaContent>

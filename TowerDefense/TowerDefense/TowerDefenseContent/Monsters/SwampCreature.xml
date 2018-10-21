@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="TowerDefenseEngine.Enemy.Monster">
+    <Name>Swamp Creature</Name>
+    <Description/>
+    <Alpha>1.0</Alpha>
+    <Speed>50</Speed>
+    <Health>2500</Health>
+    <TextureAsset>swampcreature</TextureAsset>
+    <HitTextureAsset>swampcreature_hit</HitTextureAsset>
+    <HitCueName>BossHit</HitCueName>
+    <IsBoss>true</IsBoss>
+  </Asset>
+</XnaContent>

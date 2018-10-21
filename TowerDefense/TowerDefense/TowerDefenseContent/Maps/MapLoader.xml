@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="TowerDefenseEngine.MapLoader">
+    <MapsContentNames>
+      <Item>Forest</Item>
+      <Item>Vector</Item>
+      <Item>Snow</Item>
+    </MapsContentNames>
+  </Asset>
+</XnaContent>

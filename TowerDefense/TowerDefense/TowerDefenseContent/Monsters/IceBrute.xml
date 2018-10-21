@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="TowerDefenseEngine.Enemy.Monster">
+    <Name>Ice Brute</Name>
+    <Description/>
+    <Alpha>1.0</Alpha>
+    <Speed>10</Speed>
+    <Health>3500</Health>
+    <TextureAsset>icebrute</TextureAsset>
+    <HitTextureAsset>icebrute_hit</HitTextureAsset>
+    <HitCueName>BossHit</HitCueName>
+    <IsBoss>true</IsBoss>
+  </Asset>
+</XnaContent>
